@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EEE199B-61EF-76C2-2100-D51039DCC027" name="PERFIL">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:37:17 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_perfil" id="C8CF6EAF-9DEB-E74B-E266-8D77B721BF05">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:43:01 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="9CC212C5-EA16-B8FC-F6A9-EF89E6B6B318">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:43:01 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="D4B5D186-8FE1-BAB6-A4EB-B0A9970A121A">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:43:01 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29E4006B-D9D6-6543-41A5-74B330D6CD0A" name="PERFIL_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:43:01 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8CF6EAF-9DEB-E74B-E266-8D77B721BF05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

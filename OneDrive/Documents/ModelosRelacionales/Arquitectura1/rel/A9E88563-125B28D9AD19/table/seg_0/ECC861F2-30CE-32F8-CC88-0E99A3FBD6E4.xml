@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECC861F2-30CE-32F8-CC88-0E99A3FBD6E4" name="POSTULACION_INSTRUCTOR">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:42:04 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_postulacion" id="EB424F9B-A639-813D-27A5-F48B3A6CFB17">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:05:18 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_postulacion" id="979F7EBE-F637-4CDD-4850-93E513EF5505">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:05:18 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_respuesta" id="59EE4858-91A7-66EC-B798-AB256B2EA77A">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:05:18 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="certificados" id="16CE9AD0-ECEC-41B4-6047-FDA94C65DF80">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:05:18 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje_total" id="D83ED3A3-6494-E084-B507-7257EAAA7074">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:05:18 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aceptado" id="5DC9E170-4840-8EDF-DA92-821849D9B2DD">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:05:18 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADULTO_RUT" id="1BBE6E08-F51E-EF88-D5DA-AA3B52C9BD8D">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:06:29 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A994B95-5B50-C984-E4AA-D4FC59C8F6C8" referredColumn="A6C71B50-574B-C8C8-831F-30BD5E742097"/>
+</associations>
+</Column>
+<Column name="RUT_FUNCIONARIO" id="94FBE34D-4A32-D25B-E15D-1CA9E73D3B8C">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:07:23 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C619C336-A3B6-C42F-60B2-0B58095D55FE" referredColumn="8692B3D9-E150-F3F7-84D6-68E53701AAB6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BED53BD1-0B11-099D-33E2-3962C0D84973" name="POSTULACION_INSTRUCTOR_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:05:18 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB424F9B-A639-813D-27A5-F48B3A6CFB17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BA3064A-A04E-8913-3BC8-A450E7F8B979" name="POSTULACION_INSTRUCTOR_ADULTO_MAYOR_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:06:29 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BBE6E08-F51E-EF88-D5DA-AA3B52C9BD8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D68B8214-CE84-5E0E-8038-B02A2E78E9BD" name="POSTULACION_INSTRUCTOR_FUNCIONARIO_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:07:23 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94FBE34D-4A32-D25B-E15D-1CA9E73D3B8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

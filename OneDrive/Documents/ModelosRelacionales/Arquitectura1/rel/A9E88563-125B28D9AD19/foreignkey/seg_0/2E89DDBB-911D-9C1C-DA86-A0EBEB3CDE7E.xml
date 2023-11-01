@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2E89DDBB-911D-9C1C-DA86-A0EBEB3CDE7E" containerWithKeyObject="B3305C4D-81C1-B572-D656-76E8F99EF86E" localFKIndex="E545DC30-25C3-27D5-9DF6-9262FA41F767" name="PAGO_BONO_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:17:42 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<referredTableLongName>BONO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B23525BE-E0CE-053B-99D6-4F14C6B9E14A</referredTableID>
+<keyObject>FF9B10B1-72B2-6245-DCEB-6BE657E9DE15</keyObject>
+<referredKeyID>FF9B10B1-72B2-6245-DCEB-6BE657E9DE15</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_bono</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

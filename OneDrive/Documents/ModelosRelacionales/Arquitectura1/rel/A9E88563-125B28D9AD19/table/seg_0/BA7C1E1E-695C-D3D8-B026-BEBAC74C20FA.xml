@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA7C1E1E-695C-D3D8-B026-BEBAC74C20FA" name="COMUNA">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:59:11 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comuna" id="79B82B4B-B28F-770C-881E-75C900591658">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 14:00:39 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="786F4E1E-38B9-2FD7-3B70-9D2153847F60">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 14:00:39 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D2AD491-A542-C9A5-F041-2583855024B2" name="COMUNA_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 14:00:39 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79B82B4B-B28F-770C-881E-75C900591658"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

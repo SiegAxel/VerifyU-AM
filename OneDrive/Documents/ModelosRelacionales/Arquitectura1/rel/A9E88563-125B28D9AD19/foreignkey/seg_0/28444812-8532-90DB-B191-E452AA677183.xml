@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="28444812-8532-90DB-B191-E452AA677183" containerWithKeyObject="F80209E5-CCC9-93A2-2053-3E9DE35F4BB5" localFKIndex="BA470C6F-F98A-6893-CA49-EFF047BBD5D3" name="SOLICITUD_MATERIAL_FUNCIONARIO_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:58:27 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<referredTableLongName>FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A31D2238-D5CC-7F80-518C-20FB6A11482B</referredTableID>
+<keyObject>FB19F56B-99F8-0AB8-1E0B-F3A17E805A0F</keyObject>
+<referredKeyID>FB19F56B-99F8-0AB8-1E0B-F3A17E805A0F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUT_FUNCIONARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

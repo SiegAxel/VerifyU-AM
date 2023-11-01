@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F80209E5-CCC9-93A2-2053-3E9DE35F4BB5" name="SOLICITUD_MATERIAL">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:38:58 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_solicitud_material" id="1A3B1E41-EF58-5E15-CD67-BF52993712AF">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:56:03 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="7BC90CA6-756A-D34A-1AA6-E98CA53962BA">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:56:03 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_solicitud" id="388DE29D-590F-7706-7714-F57543FF200B">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:56:03 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_entrega" id="7C12F6FA-AC7E-0377-6B1C-A60C7AC44213">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:56:03 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_material" id="06D5894D-403C-3BCE-363F-5906C68F8A69">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:56:35 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8359601B-9438-685A-5F67-E672FB7D35A2" referredColumn="45735601-2736-B320-8A36-EA5DB14058AE"/>
+</associations>
+</Column>
+<Column name="RUT_INSTRUCTOR" id="A2CE8274-ED28-6986-735B-1E1E46EF9A9A">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:56:48 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCF48E80-BCE7-810A-F12B-7E032359F28C" referredColumn="C7E510D5-238D-625D-855B-D149C5BD8DE7"/>
+</associations>
+</Column>
+<Column name="TALLER_id_inscripcion" id="E4C24889-DDE4-3746-C361-B11044802A9E">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:57:08 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BCF5F09-31DF-7CF4-CE6B-77DB1860C8AD" referredColumn="5664F150-C7C8-A069-554A-AA51F4333927"/>
+</associations>
+</Column>
+<Column name="RUT_FUNCIONARIO" id="552942A7-2569-2904-4B2A-523B9FE9129D">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:58:27 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28444812-8532-90DB-B191-E452AA677183" referredColumn="8692B3D9-E150-F3F7-84D6-68E53701AAB6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E30A88B-2701-405F-5579-7A5D3FCB52FC" name="SOLICITUD_MATERIAL_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:56:03 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A3B1E41-EF58-5E15-CD67-BF52993712AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB4A4376-A9A3-ADA2-512E-DABC593523A6" name="SOLICITUD_MATERIAL_MATERIAL_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:56:35 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06D5894D-403C-3BCE-363F-5906C68F8A69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D1EC9CD-655A-4E72-FCF8-077511E1A1F7" name="SOLICITUD_MATERIAL_INSTRUCTOR_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:56:48 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2CE8274-ED28-6986-735B-1E1E46EF9A9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31316554-8A74-3340-56E0-52C59F50C48D" name="SOLICITUD_MATERIAL_INSCRIPCION_TALLER_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:57:08 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4C24889-DDE4-3746-C361-B11044802A9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA470C6F-F98A-6893-CA49-EFF047BBD5D3" name="SOLICITUD_MATERIAL_FUNCIONARIO_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:58:27 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="552942A7-2569-2904-4B2A-523B9FE9129D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

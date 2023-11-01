@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6BCF5F09-31DF-7CF4-CE6B-77DB1860C8AD" containerWithKeyObject="F80209E5-CCC9-93A2-2053-3E9DE35F4BB5" localFKIndex="31316554-8A74-3340-56E0-52C59F50C48D" name="SOLICITUD_MATERIAL_INSCRIPCION_TALLER_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:57:08 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<referredTableLongName>INSCRIPCION_TALLER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76AF41B2-1A8B-FC80-56C9-4A58F992F3FE</referredTableID>
+<keyObject>53F1CF02-0214-1FD3-41E5-B969F35BF562</keyObject>
+<referredKeyID>53F1CF02-0214-1FD3-41E5-B969F35BF562</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_inscripcion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

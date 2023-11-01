@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Arquitectura1" id="524239D6-35FA-768A-F36A-8501E2E18D1F" version="3.5">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:30:56 UTC</createdTime>
+<ownerDesignName>MR</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>524239D6-35FA-768A-F36A-8501E2E18D1F</designId>
+</OSDM_Design>

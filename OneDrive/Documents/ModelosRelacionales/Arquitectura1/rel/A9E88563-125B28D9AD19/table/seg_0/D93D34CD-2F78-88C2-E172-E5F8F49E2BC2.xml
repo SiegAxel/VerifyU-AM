@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D93D34CD-2F78-88C2-E172-E5F8F49E2BC2" name="ADULTO_MAYOR">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:33:47 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT" id="A6C71B50-574B-C8C8-831F-30BD5E742097">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:50:02 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_nombre" id="D10D45C6-2C78-72B5-641A-F77756635602">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:54:55 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="4DA228F0-0D37-ABB3-1652-B1CFDF79099A">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:54:55 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="B9AB4A0E-A41F-87C0-2AC6-226A44714A35">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:54:55 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="63C0EBEC-15CC-FBFA-8358-9EEF32763F51">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:54:55 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="1A40A1E6-58A9-5FB0-895A-9B1A874DA7EB">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:54:55 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="9AD8B72C-9AD1-003F-14CB-AE789CC70216">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:56:45 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="C24FF00F-D919-92EA-39A8-D731920C1408">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:57:17 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="62ADF980-8FB8-B881-2DD1-9722532EAA9B">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:58:04 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_comuna" id="D821F8F1-1DE2-3415-5ED6-AEA36C804EB0">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 14:06:47 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27E9DA5D-2FAF-7BD4-149E-E449C4222507" referredColumn="79B82B4B-B28F-770C-881E-75C900591658"/>
+</associations>
+</Column>
+<Column name="id_genero" id="572891D4-DD22-E5E1-649A-51599E313F52">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 14:07:33 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1720B2D-ECF6-32A5-79FB-3F238861C4CD" referredColumn="D40D2C66-D407-8CCE-1E48-D7BBD648D7FE"/>
+</associations>
+</Column>
+<Column name="id_credencial" id="DEB1AFD2-F34D-6920-5A16-9392CC55E9D2">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:46:33 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEA6B348-1084-F5D0-16D0-7EB09695534D" referredColumn="D8CB54B8-D3C6-43F1-0863-A183929BF8DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="038F0382-0860-A36C-963E-195EC3CFDFEF" name="ADULTO_MAYOR_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:50:02 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6C71B50-574B-C8C8-831F-30BD5E742097"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0BA2704-563C-124D-C6A9-047E1152975B" name="ADULTO_MAYOR_COMUNA_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 14:06:47 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D821F8F1-1DE2-3415-5ED6-AEA36C804EB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73FF9626-6177-8564-B848-DD28C06AAE50" name="ADULTO_MAYOR_GENERO_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 14:07:33 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="572891D4-DD22-E5E1-649A-51599E313F52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C0A897D-F4EE-9E07-48ED-63280EC101BC" name="ADULTO_MAYOR_CREDENCIAL_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 13:46:33 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEB1AFD2-F34D-6920-5A16-9392CC55E9D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3305C4D-81C1-B572-D656-76E8F99EF86E" name="PAGO">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-04 13:37:05 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pago" id="FC5550C0-1705-8602-4BA2-23F43012A2E5">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:16:26 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_pago" id="F5CFB0FB-E0E6-C093-60EA-77BF4FCDC52C">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:16:26 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUT_INSTRUCTOR" id="A2F1FA11-4AFB-E546-7108-7D8386E83B20">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:17:11 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8318C61-3D20-1435-4CAB-C71900A0EBEC" referredColumn="C7E510D5-238D-625D-855B-D149C5BD8DE7"/>
+</associations>
+</Column>
+<Column name="id_bono" id="360F4D02-5055-B3B3-720D-72D6D72EECD3">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:17:42 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E89DDBB-911D-9C1C-DA86-A0EBEB3CDE7E" referredColumn="34FFFE0E-0492-D78E-D03A-198309187C59"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BF77189-FF01-0343-987E-3366108440B3" name="PAGO_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:16:26 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC5550C0-1705-8602-4BA2-23F43012A2E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="533600E5-883F-5A88-AB83-D85E9AC6FB1C" name="PAGO_INSTRUCTOR_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:17:11 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2F1FA11-4AFB-E546-7108-7D8386E83B20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E545DC30-25C3-27D5-9DF6-9262FA41F767" name="PAGO_BONO_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2023-10-11 14:17:42 UTC</createdTime>
+<ownerDesignName>Arquitectura1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="360F4D02-5055-B3B3-720D-72D6D72EECD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
